@@ -1,0 +1,14 @@
+# Navigation
+alias ..="cd .."
+
+# Files
+alias ls="ls -ahl"
+alias ll="ls -ahl"
+alias lsd="ls -ahl | grep '^d'"
+
+# Git
+alias g="git"
+alias master="git checkout master"
+
+# Permissions
+alias chmodx="chmod +x"

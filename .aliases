@@ -1,5 +1,6 @@
 # Navigation
 alias ..="cd .."
+alias dots="cd ~/dotfiles"
 
 # Files
 alias ls="ls -ahl"
@@ -12,3 +13,6 @@ alias master="git checkout master"
 
 # Permissions
 alias chmodx="chmod +x"
+
+# Reload aliases
+alias alr="source ~/.aliases"

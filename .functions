@@ -1,4 +1,12 @@
 md() {
-    mkdir -p -- "$1" && 
-    cd -P -- "$1"
+  mkdir -p -- "$1" && 
+  cd -P -- "$1"
+}
+
+wreck() {
+  pushd .
+
+  WRECKDIR=`mktemp -d /tmp/wreckXXXXXXXXX` && {
+    cd $WRECKDIR
+  }
 }

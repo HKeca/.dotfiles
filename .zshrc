@@ -18,7 +18,7 @@ setopt auto_cd autopushd pushdminus pushdsilent pushdtohome cdablevars promptsub
 
 # TODO Add if guards
 # Prompt
-source ~/dotfiles/prompt.zsh
+source ~/.dotfiles/prompt.zsh
 
 # Aliases
 source ~/.aliases

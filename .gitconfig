@@ -11,4 +11,4 @@
 	changed = green
 	untracked = cyan
 [commit]
-	template = ~/dotfiles/.gitmessage
+	template = ~/.dotfiles/.gitmessage

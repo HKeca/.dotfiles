@@ -1,6 +1,6 @@
 # Navigation
 alias ..="cd .."
-alias dots="cd ~/dotfiles"
+alias dots="cd ~/.dotfiles"
 
 # Files
 alias ls="ls -ahl"
